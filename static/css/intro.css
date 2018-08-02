@@ -11,3 +11,13 @@
 .col-md {
 	width: 40px;
 }
+
+.card-title{
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.card-text{
+	font-size: 17px;
+	text-align: left;
+}
