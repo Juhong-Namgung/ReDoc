@@ -19,7 +19,7 @@ Then open browser with url 'localhost:8888'
 ### How to modify
 ```
 $ git branch {@your_branch_name}
-$ git checkout {@your_branch_name}
+$ git checkout --track -b {@your_branch_name} origin/{@your_branch_name}
 ```
 
 <br>
