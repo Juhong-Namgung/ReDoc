@@ -1,0 +1,53 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{
+	position: relative;
+	margin: 0;
+	padding-bottom: 2.2rem;
+	min-height: 100%;
+}
+
+.section-padding{
+	padding: 40px 0;
+}
+.space{
+	height: 30px;
+	display:block;
+}
+.padding-height-lg{
+	padding: 90px 0;
+}
+.padding-top-xl{
+	padding-top: 150px;
+}
+.padding-width-sm{
+	padding: 0 10px;
+}
+.padding-width-md{
+	padding: 0 30px;
+}
+.padding-width-lg{
+	padding: 0 70px;
+}
+.img-width-big {
+	width: 90%;
+	max-width: 700px;
+}
+.title{
+	margin-bottom: 20px;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
