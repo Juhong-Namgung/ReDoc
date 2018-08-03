@@ -44,14 +44,120 @@
 
 
   <!-- code here -->
-  <hr>
+  <div class="sidebar" style="width:130px">
+    <h5 class="bar-item">Menu</h5>
+    <button id="btn-menu-text" class="bar-item button tablink">Text Summarization</button>
+    <button id="btn-menu-image" class="bar-item button tablink">Image Suggestion</button>
+  </div>
+  
+  <div style="margin-left:130px">
+  
+    <div id="content-text" class="container func">
+      <div style="margin-left:25%">
+        <div class="contents1">
+          <h2>Text Analytics API</h2>
+          <p>API explanation</p>
+          <hr>
+          <h2>Request URL</h2>
+          <p>https://[location].api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases</p>
+          <hr>
+          <h2>Request headers</h2>
+          <table style="width:100%">
+            <tr>
+              <td>Content_Type (optional)</td>
+              <td>String</td>
+              <td>Media type of the body sent to the API</td>
+            </tr>
+            <tr>
+              <td>Ocp-Apim-Subscription-Key</td>
+              <td>String</td>
+              <td>Subscription key which provides access to this API.</td>
+            </tr>
+          </table>
+          <hr>
+          <h2>Request Body</h2>
+          <p>Collection of documents to analyze.</p>
+          <table style="Width:100%">
+            <tr>
+              <td>aookucatuib.json</td>
+            </tr>
+            <tr>
+              <td>Sample</td>
+              <td>Schema</td>
+            </tr>
+            <tr>
+              <td>blabla</td>
+            </tr>
+          </table>
+    
+    
+        </div>
+      </div>
+    </div>
+  
+    <div id="content-image" class="container func">
+      <div style="margin-left:25%">
+        <div class="contents1">
+          <h2>Image suggestion</h2>
+          <p>explanation of API blablablabla</p>
+          <hr>
+          <h2>Request URL</h2>
+          <p>https://[location].api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases</p>
+          <hr>
+          <h2>Request headers</h2>
+          <table style="width:100%">
+            <tr>
+              <td>Content_Type (optional)</td>
+              <td>String</td>
+              <td>Media type of the body sent to the API</td>
+            </tr>
+            <tr>
+              <td>Ocp-Apim-Subscription-Key</td>
+              <td>String</td>
+              <td>Subscription key which provides access to this API.</td>
+            </tr>
+          </table>
+          <hr>
+          <h2>Request Body</h2>
+          <p>Collection of documents to analyze.</p>
+          <table style="Width:100%">
+            <tr>
+              <td>aookucatuib.json</td>
+            </tr>
+            <tr>
+              <td>Sample</td>
+              <td>Schema</td>
+            </tr>
+            <tr>
+              <td>blabla</td>
+            </tr>
+          </table>
+    
+    
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+  
 
+<!-- 위에 수정 -->
+
+  <!-- <div class="sidebar_menu" id="menu" style="width:25%">
+	  <h3 class="sidebar_item">APIs Documentation</h3>
+	  <a href="text" class="sidebar_item button">Text Summarization</a>
+	  <a href="image" class="sidebar_item button">Image Suggestion</a>
+  </div> -->
+
+ 
   <div class="footer text-center" id="footer">
     <div class="container">
       ©ReDoc of Golden Beer. 2018.06-
     </div>
   </div>
 
+  <script src="../static/js/api.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="../static/bootstrap/js/bootstrap.min.js"></script>
