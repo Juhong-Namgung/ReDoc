@@ -57,3 +57,12 @@ body{
   padding: 1rem;
   text-align: center;
 }
+.margin-left-p{
+	margin: 70px; 
+}
+.padding-top-p{
+	padding-top: 50px;
+}
+.padding-top-p2{
+	padding-top: 25px;
+}
