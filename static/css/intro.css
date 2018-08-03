@@ -1,0 +1,42 @@
+.solution-card{
+	float:left;
+	padding:auto;
+	text-align: center;
+}
+
+.solution-icon{
+	padding:5px;
+	width:80%;
+	height:auto;
+}
+
+.card-title{
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.card-text{
+	font-size: 17px;
+	text-align: left;
+}
+
+.height-match-parent{
+	height: 85%;
+	margin-bottom: 15%;
+}
+
+.for-who{
+	font-size: 30px;
+	font-style: strong;
+	text-align:center;
+	margin: 10px;
+	margin-top:80px;
+}
+
+.shadow {
+    box-shadow: .1rem .1rem .1rem 0.1rem rgba(0,0,0,.15)!important;
+}
+
+.mb-5 {
+    margin-bottom: 1rem!important;
+}
