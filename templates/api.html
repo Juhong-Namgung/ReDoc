@@ -43,6 +43,12 @@
   </div>
 
 
+  <div class="section section-test" style="margin-top:100px;">
+    <input id="input-test" class="input-xxlarge input-test"></input>
+    <button id="btn-test-summary" class="btn btn-primary btn-test-image" data-toggle="modal" data-target="#modalSummary">Summary</button>
+    <button id="btn-test-image" class="btn btn-primary btn-test-summary" data-toggle="modal" data-target="#modalImage">Image</button>
+  </div>
+
   <!-- code here -->
   <div class="sidebar" style="width:130px">
     <h5 class="bar-item">Menu</h5>
@@ -137,20 +143,32 @@
         </div>
       </div>
     </div>
-  
-  
   </div>
-  
 
-<!-- 위에 수정 -->
+    <!-- Result Modals -->
 
-  <!-- <div class="sidebar_menu" id="menu" style="width:25%">
-	  <h3 class="sidebar_item">APIs Documentation</h3>
-	  <a href="text" class="sidebar_item button">Text Summarization</a>
-	  <a href="image" class="sidebar_item button">Image Suggestion</a>
-  </div> -->
+  <div class="modal fade" id="modalSummary" tabindex="-1" role="dialog" aria-labelledby="modalLableSummary" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div id="modal-content-summary" class="modal-body">
+<!--           <img src="../static/img/img-trumph_with_mc.png" class="modal-content modal-img""></img>
+          <ul class="margin-top-sm">
+            <li>item</li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
 
- 
+   <div class="modal fade" id="modalImage" tabindex="-1" role="dialog" aria-labelledby="modalLableImage" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div id="modal-content-image" class="modal-content">
+        <!-- <img src="../static/img/img-trumph_with_mc.png" class="modal-content modal-img""></img> -->
+      </div>
+    </div>
+  </div>
+
+
   <div class="footer text-center" id="footer">
     <div class="container">
       ©ReDoc of Golden Beer. 2018.06-
