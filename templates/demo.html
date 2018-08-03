@@ -60,25 +60,49 @@
   <div class="bundle bundle-plugin">
     <div id="bundle-plugin-detail" class="bundle bundle-plugin-detail">
       <div id="btn-redoc-image">
-        <button type="button" class="btn btn-primary plugin-redoc plugin-redoc-image">
+        <button type="button" class="btn btn-plugin-detail plugin-redoc plugin-redoc-image" data-toggle="modal" data-target="#modalImage">
           <img class="img-width-big" src="../static/img/icon-picture.png"></img>
         </button>
       </div>
       <div id="btn-redoc-summary">
-        <button type="button" class="btn btn-primary plugin-redoc plugin-redoc-summary">
+        <button type="button" class="btn btn-plugin-detail plugin-redoc plugin-redoc-summary" data-toggle="modal" data-target="#modalSummary">
           <img class="img-width-big" src="../static/img/icon-filter.png"></img>
         </button>
       </div>
       <div id="btn-redoc-speaker">
-        <button type="button" class="btn btn-primary plugin-redoc plugin-redoc-speaker">
+        <button type="button" class="btn btn-disable-bluegray plugin-redoc plugin-redoc-speaker" disabled>
           <img class="img-width-big" src="../static/img/icon-speaker.png"></img>
         </button>
       </div>
     </div>
     <div id="btn-redoc-start">
-      <button type="button" class="btn btn-primary plugin-redoc plugin-redoc-start">
+      <button type="button" class="btn btn-redoc plugin-redoc plugin-redoc-start">
         <img class="img-width-big" src="../static/img/logo-icon-white.png"></img>
       </button>
+    </div>
+  </div>
+
+  <!-- Plug-in Modals -->
+  <div class="modal fade" id="modalImage" tabindex="-1" role="dialog" aria-labelledby="modalLableImage" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <img src="../static/img/img-trumph_with_mc.png" class="modal-content modal-img""></img>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalSummary" tabindex="-1" role="dialog" aria-labelledby="modalLableSummary" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="../static/img/img-trumph_with_mc.png" class="modal-content modal-img""></img>
+          <ul class="margin-top-sm">
+            <li>Trump often eats at fast-food chains because of a "longtime fear of being poisoned,"</li>
+            <li>Two Big Macs, two Filet-o-Fish sandwiches, and a large chocolate shake.</li>
+            <li>The president believes that McDonald's is cleaner than many other restaurants.</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 

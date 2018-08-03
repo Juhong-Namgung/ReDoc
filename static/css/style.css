@@ -36,6 +36,9 @@ body{
 .padding-width-lg{
 	padding: 0 70px;
 }
+.margin-top-sm{
+	margin-top: 10; 
+}
 .img-width-big {
 	width: 90%;
 	max-width: 700px;

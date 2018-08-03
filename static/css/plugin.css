@@ -50,3 +50,28 @@
 	bottom: 20px;
 	right: 25px;
 }
+.modal-img{
+	width: 100%;
+	border-width: 8px; 
+	border-style: solid; 
+	border-color: white;
+	max-width: 500px;
+	max-height: 500px;
+}
+.btn-redoc{
+	background-color: #64818D;
+	border-color: #64818D;
+}.btn-redoc:hover{
+	background-color: #516973;
+}
+.btn-plugin-detail{
+	background-color: #93AAB3;
+	border-color: #93AAB3;
+}.btn-plugin-detail:hover{
+	background-color: #B7CFCE;
+	border-color: #B7CFCE;
+}
+.btn-disable-bluegray{
+	background-color: #B7CFCE;
+	border-color: #B7CFCE;
+}

@@ -6,12 +6,18 @@ var btnSpeaker = document.getElementById('btn-redoc-speaker');
 
 bundlePluginDetail.style.visibility = 'hidden'
 
+btnStart.addEventListener('mouseover', function(ev) {
+    bundlePluginDetail.style.visibility = 'visible';
+});
+bundlePluginDetail.addEventListener('mouseleave', function(ev) {
+    bundlePluginDetail.style.visibility = 'hidden';
+});
+
 btnStart.addEventListener('click', function(ev) {
     if(bundlePluginDetail.style.visibility == 'visible')
         bundlePluginDetail.style.visibility = 'hidden';
     else bundlePluginDetail.style.visibility = 'visible';
 });
-
 
 var modalImage = document.getElementById('modal-image');
 btnImage.addEventListener('click', function(ev) {
